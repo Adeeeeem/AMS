@@ -8,7 +8,7 @@ AMS is my first web application built on the Spring MVC framework using Maven 3.
 - `th:object`
 - `@Entity`, `@Repository`, `@Autowired`
 
-![Plan of the bootcamp](./Plan.jpg)
+![Plan of the bootcamp](./Plan.png)
 
 ## Getting Started
 
