@@ -8,6 +8,8 @@ AMS is my first web application built on the Spring MVC framework using Maven 3.
 - `th:object`
 - `@Entity`, `@Repository`, `@Autowired`
 
+![Plan of the bootcamp](./Plan.jpg)
+
 ## Getting Started
 
 To run the project, you will need to have Maven and Java JDK 17 installed on your system. You can use your preferred Integrated Development Environment (IDE) to run the project. Here are the steps to run the project in Spring Tool Suite (STS):
