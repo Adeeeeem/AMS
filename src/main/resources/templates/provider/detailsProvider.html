@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+<h1 align="center">Détails du Provider</h1>
+
+<div style="margin-bottom: 20px; padding: 10px;">
+	Retour vers <a class="btn btn-info" th:href="@{/provider/list}">List of providers</a>
+</div>
+
+<table class="table table-hover container" align="center">	
+	<tr>
+		<th>ID</th>
+		<td th:text="${provider.id}"></td>
+	</tr>
+	<tr>
+		<th>Name</th>
+		<td th:text="${provider.name}"></td>
+	</tr>
+	<tr>
+		<th>Email</th>
+		<td th:text="${provider.email}"></td>
+	</tr>
+	<tr>
+		<th>Adresse</th>
+		<td th:text="${provider.adresse}"></td>
+	</tr>
+	<tr>
+		<th>Description</th>
+		<td th:text="${provider.description}"></td>
+	</tr>
+</table>
