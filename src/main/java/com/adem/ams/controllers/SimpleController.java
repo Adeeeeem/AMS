@@ -9,18 +9,21 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("providerV1")
+@RequestMapping("/simple")
 public class SimpleController
 {
 	@RequestMapping("/info")
 	@ResponseBody
 	public String info()
 	{
+		// Returns the below text
 		String formation = "Spring";
 		int nbrHeures = 20;
 
 		System.out.println("Hello BootCamp");
 		return "<h4>Détails formation : " + formation + " " + nbrHeures + "</h4>";
+		
+		//Returns the info interface (you need to remove @ResponseBody)
 		//return "info.html";
 	}
 
