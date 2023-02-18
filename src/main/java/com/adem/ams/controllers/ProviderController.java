@@ -100,8 +100,6 @@ public class ProviderController
 	@GetMapping("/delete/{id}")
 	public String deleteProvider(@PathVariable("id") int id)
 	{
-		//Provider providerToDelete = null;
-
 		for(Provider provider : providers)
 		{
 			if(provider.getId() == id)
