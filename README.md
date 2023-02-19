@@ -20,7 +20,7 @@ AMS is my first web application built on the Spring MVC framework using Maven 3.
 - Deployment of the application on remote free server
 - Adding unitary tests using JUnit
 
-![Plan of the bootcamp](./Plan.jpg)
+![Plan of the bootcamp](./Plan.png)
 
 ## Getting Started
 
