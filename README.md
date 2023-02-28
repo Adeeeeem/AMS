@@ -6,7 +6,7 @@ AMS is my first web application built on the Spring MVC framework using Java ver
 
 ## Getting Started
 
-To run the project, you will need to have Maven and Java JDK 17 installed on your system. You can use your preferred Integrated Development Environment (IDE) to run the project. Here are the steps to run the project in Spring Tool Suite (STS):
+To run the project, you will need to have Maven and Java JDK 17 installed on your system. You can use your preferred Integrated Development Environment (IDE) to run the project. Here are the steps to run the project in Spring Tool Suite (STS) :
 
 ### Step 1
 
@@ -58,7 +58,7 @@ The following concepts have been covered as part of this project :
 
 ## Dependencies
 
-The following dependencies were used in the creation of this project:
+The following dependencies were used in the creation of this project :
 
 - Spring Boot
 - Thymeleaf
